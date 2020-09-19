@@ -1,15 +1,14 @@
 <template>
-<div>hi</div>
-<hong></hong>
+    <div>导航栏 |
+        <router-link to="/">Hong</router-link> |
+        <router-link to="/xxx">Hong2</router-link>
+    </div>
+    <hr />
+    <router-view />
 </template>
 
 <script>
-import Hong from './components/Hong.vue'
-
 export default {
     name: 'App',
-    components: {
-        Hong
-    }
 }
 </script>
